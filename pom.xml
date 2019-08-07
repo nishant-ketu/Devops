@@ -34,4 +34,16 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+        <repository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>http://13.234.231.52:8081/repository/my-app-REL/</url>
+        </repository>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://13.234.231.52:8081/repository/my-app-SNAP/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
