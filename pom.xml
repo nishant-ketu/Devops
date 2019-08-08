@@ -35,14 +35,7 @@
       <plugin>
         <artifactId>maven-war-plugin</artifactId>
         <configuration>
-          <archive>
-            <manifest>
-              <addClasspath>true</addClasspath>
-              <classpathPrefix>lib/</classpathPrefix>
-              <failOnMissingWebXml>false</failOnMissingWebXml>
-              <mainClass>com.mycompany.app.App</mainClass>
-            </manifest>
-          </archive>
+          <failOnMissingWebXml>false</failOnMissingWebXml>
         </configuration>
        </plugin>
       <plugin>
