@@ -49,12 +49,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://52.66.143.68:8081/repository/my-app-REL/</url>
+            <url>http://13.235.16.44:8081/repository/my-app-REL/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://52.66.143.68:8081/repository/my-app-SNAP/</url>
+            <url>http://13.235.16.44:8081/repository/my-app-SNAP/</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
